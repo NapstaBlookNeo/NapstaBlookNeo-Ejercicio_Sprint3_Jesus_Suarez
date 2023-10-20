@@ -8,19 +8,24 @@
 
 /*Page Structure*/
 header {
-
+    width: 100vw;
+    display: flex;
     background-color: #1e1f22;
     height: 5vw;
 }
 
 nav {
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
     padding: 1.5vw;
     font-size: 1.5vw;
 }
 
 nav a {
     color: #f799f7;
-    padding-right: 2vw;
+    
+    text-decoration: none;
 }
 
 
@@ -43,10 +48,13 @@ footer div {
 }
 
 .logo {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 5vw;
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img{
+    width:5vw;
 }
 
 
@@ -307,7 +315,83 @@ textarea{
 }
 
 @media only screen and (max-width:767px) {
+    /*Page Structure*/
+    header{
+        height: 58vw;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    nav{
+        padding: 0;
+        order: 2;
+        width: 100vw;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav a{
+        padding: 0;
+        margin-top: .6vw;
+        font-size: 4vw;
+    }
+
+    .logo{
+        order: 1;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .logo img{
+        width: 20vw;
+    }
+
+    .main_title h1 {
+        font-size: 10vw;
+        padding: 0;
+    }
+    
+    .main_title h2 {
+        font-size: 7vw;
+        padding-bottom: 0;
+    }   
+
+    footer {
+        padding-top: 2vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        bottom: 0;
+        text-align: center;
+        height: 12vw;
+        
+    }
+
+    /*Home */
+    .banner {
+        height: 35vw; 
+        background-position: 0 25%;
+    }     
+    
+    .home_article {
+        text-align: justify;
+        display: flex;   
+        flex-direction: column;
+        padding: 2vw 2vw 0 2vw; 
+        align-items: center;
+    }
+
+    .home_article div {
+        order: 2;
+        width: 90vw;
+        font-size: 5vw;
+        padding: 5vw;
+    }
+    
+    .home_article img {
+        margin-top: 5vw;
+        width: 90vw;
+        border-radius: 2vw;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
