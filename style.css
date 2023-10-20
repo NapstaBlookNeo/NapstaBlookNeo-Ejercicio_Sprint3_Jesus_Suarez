@@ -1,0 +1,315 @@
+* {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #e4c5e4;
+    padding: 0;
+    margin: 0;
+}
+
+/*Page Structure*/
+header {
+
+    background-color: #1e1f22;
+    height: 5vw;
+}
+
+nav {
+    padding: 1.5vw;
+    font-size: 1.5vw;
+}
+
+nav a {
+    color: #f799f7;
+    padding-right: 2vw;
+}
+
+
+body {
+    background-color: #313338;
+}
+
+footer {
+    margin-top: 2vw;
+    font-size: 1vw;
+    bottom: 0;
+    text-align: center;
+    height: 5vw;
+    background-color: #1e1f22;
+    width: 100%;
+}
+
+footer div {
+    padding: 1vw;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5vw;
+}
+
+
+.main_title {
+    
+    background-color: #2b2d31;
+}
+
+.main_title h1 {
+    font-size: 3vw;
+    padding: 1vw;
+    text-align: center;
+}
+
+.main_title h2 {
+    font-size: 2vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+
+/*Home */
+.banner {
+    height: 15vw;
+    background-image: url(/Resources/icecream.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+.home_article {
+    text-align: justify;
+    display: flex;   
+    padding: 2vw 2vw 0 2vw; 
+}
+
+.home_article div {
+    width: 60vw;
+    font-size: 1.25vw;
+    padding-right: 2vw;
+}
+
+.home_article img {
+    width: 35vw;
+    border-radius: 40px;
+}
+
+/*AboutUs Page*/
+.about_article {
+    display: flex;
+    padding: 2vw 2vw 0 2vw;
+}
+
+.about_article div {
+    width: 70vw;
+    padding-left: 2vw;
+}
+
+.about_article img {
+    width: 20vw;
+    height: 28vw;
+    border-radius: 2vw;
+}
+
+.about_article h3 {
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
+}
+
+.about_article p {
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+/*Contact Page*/
+.contact_banner {
+    border: 1vw solid #f799f7;
+    border-radius: 10vw;
+    height: 20vw;
+    margin: 2vw 5vw 0 5vw;
+    background-image: url(/Resources/icecream.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    padding: 2vw 8vw 0 8vw;
+}
+
+.contact h3{
+    font-size: 2.5vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.contact p{
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+.contact>div{
+    justify-content: space-around;
+    font-size: 1.6vw;
+    display: flex;
+    
+}
+.contact div p{
+    color: white;
+}
+
+.contact div a{
+    color: white;
+}
+
+/*Information Page*/
+.information_table{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin: 5vh 0;
+    padding: 5vw 5vh;
+    background-color: #1e1f22;
+    border-radius: 5vw;
+}
+
+.information_table table, th, td{
+    border: solid ;
+    font-size: 1.3vw;
+    color: white;
+    border-collapse: collapse;
+    padding: 3vw;
+    text-align: center;
+}
+
+.information_table_container{
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+
+/*Benefits and Tips Page*/
+.container_benefits{
+    padding: 0 2vw;
+    display: flex;
+    border-radius: 2vw;
+    background-color: #1e1f22;
+    width: 89vw;
+    margin: 5vh 3vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_benefits img{
+    flex-grow: 1;
+    border-radius: 2vw;
+    width: 25vw;
+    height: 60vh;
+}
+
+.table_container{
+    font-size: 1.4vw;
+    flex-grow: 3;
+    padding: 0 2vw 0 4vw;
+    text-align: justify;
+}
+
+.table_container h3{
+    font-size: 1.6vw;
+    text-align: center;
+    padding-bottom: 2vh;
+    color:white;
+}
+
+
+.star_rate{
+    font-size: 3vw;
+    text-align: center;
+    color: yellow;
+    padding-top: 2vh;
+}
+.benefits_article{
+    width: 88vw;
+    font-size: 1.4vw;
+    text-align: justify;
+    padding: 5vh 5vw;
+}
+
+.benefits_article h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 3vh;
+}
+
+/*Raffle Page*/
+
+iframe{
+    filter: invert(95%);
+    margin: 4vh 0 0 2vw;
+    border-radius: 1vw;
+    width: 40vw;
+    height: 60vh;
+}
+
+.form{
+    background-color: rgb(219, 219, 219);
+    padding: 8vh 4vw;
+    border: .2vh solid rgb(215, 215, 215);
+    border-radius: 2vh;
+    margin: 4vh 2vw;
+    width: 30vw;
+    font-size: 1.2vw;
+}
+
+.form label, input, select, option, textarea{
+    margin: .8vh 0;
+    color: #1e1f22;
+    font-size: 1.2vw;
+}
+
+.raffle_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input_box{
+    background-color: #939393;
+    border: none;
+    border-radius: 1vh;
+    margin: .5vh 0 1vh 0;
+    width: 100%;
+    height: 4vh
+}
+
+textarea{
+    width: 100%;
+    margin: 1vh 0;
+    border: none;
+    border-radius: 1vh;
+    background-color: #939393;
+    resize: none;
+}
+
+.submit_button{
+    border: none;
+    background-color: #939393;
+    border-radius: 1vh;
+    padding: .8vh .5vw; 
+    float: right;
+}
+
+.raffle_h2{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+@media only screen and (max-width:767px) {
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    
+}

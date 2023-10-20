@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/Resources/icon.png">
+    <title>Raffle</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="/aboutUs.html">ABOUT</a>
+            <a href="/contact.html">CONTACT</a>
+            <a href="/information.html">INFORMATION</a>
+            <a href="/benefits.html">BENEFITS & TIPS</a>
+            <a href="#">RAFFLE</a>
+        </nav>
+        <img class="logo" src="/Resources/logo.png" alt="Logo">
+    </header>
+
+    <main>
+        <section>
+            <div class="main_title">
+                <h1>SNOWY CREAM</h1>
+                <H2>Raffle</H2>
+            </div>
+        </section>
+
+        <h2 class="raffle_h2">You can collaborate to  hold an exhibition event and participate in a raffle to win an easel</h2>
+
+        <div class="raffle_container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.7399505078424!2d-118.41298748300666!3d34.02488549716683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb8939a908b1%3A0x7409fe2ff84261ed!2sSnowy%20Cream!5e0!3m2!1ses-419!2sco!4v1697732009785!5m2!1ses-419!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="form">
+                <form method="get">
+                    <label for="name">First Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name" class="input_box" required>
+                    <br>
+                    <label for="surname">Last Name:</label>
+                    <br>
+                    <input type="text" name="surname" id="surname" class="input_box" required>
+                    <br>
+                    <label for="meeting_method">Choose Meet or Zoom:</label>
+                    <br>
+                    <select name="meeting" id="meeting_method" class="input_box" required>
+                        <option value="method_meet">Meet</option>
+                        <option value="method_zoom">Zoom</option>
+                    </select>
+                    <br>
+                    <label for="date">Choose Date:</label>
+                    <br>
+                    <input type="date" name="date" id="date" class="input_box" required>
+                    <br>
+                    <label for="payment_method">Payment Options:</label>
+                    <br>
+                    <input type="radio" name="payment_method" id="cash" value="cash" required>
+                    <label for="cash">Cash</label>
+                    <br>
+                    <input type="radio" name="payment_method" id="debit" value="debit" required>
+                    <label for="cash">Debit</label>
+                    <br>
+                    <input type="radio" name="payment_method" id="credit" value="credit" required>
+                    <label for="cash">Credit</label>
+                    <br>
+                    <label for="message">Message (Optional)</label>
+                    <br>
+                    <textarea id="message" name="message" rows="4" cols="30"></textarea>
+                    <br>
+                    <input type="checkbox" name="terms" id="terms_conditions" required>
+                    <label for="terms_conditions">Accept terms and conditions</label>
+                    <input type="submit" value="Send" class="submit_button">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>Created with love by Jesus Suarez for MindHub <br>2023</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
