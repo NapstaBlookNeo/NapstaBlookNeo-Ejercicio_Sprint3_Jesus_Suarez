@@ -8,7 +8,7 @@
 
 /*Page Structure*/
 header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     background-color: #1e1f22;
     height: 5vw;
@@ -24,7 +24,7 @@ nav {
 
 nav a {
     color: #f799f7;
-    
+
     text-decoration: none;
 }
 
@@ -53,13 +53,13 @@ footer div {
     justify-content: flex-end;
 }
 
-.logo img{
-    width:5vw;
+.logo img {
+    width: 5vw;
 }
 
 
 .main_title {
-    
+
     background-color: #2b2d31;
 }
 
@@ -86,8 +86,8 @@ footer div {
 
 .home_article {
     text-align: justify;
-    display: flex;   
-    padding: 2vw 2vw 0 2vw; 
+    display: flex;
+    padding: 2vw 2vw 0 2vw;
 }
 
 .home_article div {
@@ -142,37 +142,47 @@ footer div {
     align-items: center;
 }
 
-.contact{
+.contact_banner img {
+    width: 30vw;
+}
+
+.contact {
     padding: 2vw 8vw 0 8vw;
 }
 
-.contact h3{
+.contact h3 {
     font-size: 2.5vw;
     text-align: center;
     padding-bottom: 2vw;
 }
 
-.contact p{
+.contact p {
     font-size: 1.6vw;
     text-align: justify;
 }
 
-.contact>div{
+.contact>div {
     justify-content: space-around;
     font-size: 1.6vw;
     display: flex;
-    
+
 }
-.contact div p{
+
+.contact div p {
     color: white;
 }
 
-.contact div a{
+.contact div a {
     color: white;
+}
+
+.whatsapp {
+    width: 2vw;
+    padding-right: 1vw;
 }
 
 /*Information Page*/
-.information_table{
+.information_table {
     display: flex;
     justify-content: center;
     width: 50vw;
@@ -182,8 +192,10 @@ footer div {
     border-radius: 5vw;
 }
 
-.information_table table, th, td{
-    border: solid ;
+.information_table table,
+th,
+td {
+    border: solid;
     font-size: 1.3vw;
     color: white;
     border-collapse: collapse;
@@ -191,14 +203,14 @@ footer div {
     text-align: center;
 }
 
-.information_table_container{
+.information_table_container {
     display: flex;
     justify-content: center;
     width: 98vw;
 }
 
 /*Benefits and Tips Page*/
-.container_benefits{
+.container_benefits {
     padding: 0 2vw;
     display: flex;
     border-radius: 2vw;
@@ -210,42 +222,41 @@ footer div {
     justify-content: space-around;
 }
 
-.container_benefits img{
-    flex-grow: 1;
-    border-radius: 2vw;
+.container_benefits img {
     width: 25vw;
     height: 60vh;
 }
 
-.table_container{
+.table_container {
     font-size: 1.4vw;
     flex-grow: 3;
     padding: 0 2vw 0 4vw;
     text-align: justify;
 }
 
-.table_container h3{
+.table_container h3 {
     font-size: 1.6vw;
     text-align: center;
     padding-bottom: 2vh;
-    color:white;
+    color: white;
 }
 
 
-.star_rate{
+.star_rate {
     font-size: 3vw;
     text-align: center;
     color: yellow;
     padding-top: 2vh;
 }
-.benefits_article{
+
+.benefits_article {
     width: 88vw;
     font-size: 1.4vw;
     text-align: justify;
     padding: 5vh 5vw;
 }
 
-.benefits_article h2{
+.benefits_article h2 {
     text-align: center;
     color: white;
     padding-bottom: 3vh;
@@ -253,7 +264,7 @@ footer div {
 
 /*Raffle Page*/
 
-iframe{
+iframe {
     filter: invert(95%);
     margin: 4vh 0 0 2vw;
     border-radius: 1vw;
@@ -261,7 +272,7 @@ iframe{
     height: 60vh;
 }
 
-.form{
+.form {
     background-color: rgb(219, 219, 219);
     padding: 8vh 4vw;
     border: .2vh solid rgb(215, 215, 215);
@@ -271,19 +282,23 @@ iframe{
     font-size: 1.2vw;
 }
 
-.form label, input, select, option, textarea{
+.form label,
+input,
+select,
+option,
+textarea {
     margin: .8vh 0;
     color: #1e1f22;
     font-size: 1.2vw;
 }
 
-.raffle_container{
+.raffle_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.input_box{
+.input_box {
     background-color: #939393;
     border: none;
     border-radius: 1vh;
@@ -292,7 +307,7 @@ iframe{
     height: 4vh
 }
 
-textarea{
+textarea {
     width: 100%;
     margin: 1vh 0;
     border: none;
@@ -301,28 +316,29 @@ textarea{
     resize: none;
 }
 
-.submit_button{
+.submit_button {
     border: none;
     background-color: #939393;
     border-radius: 1vh;
-    padding: .8vh .5vw; 
+    padding: .8vh .5vw;
     float: right;
 }
 
-.raffle_h2{
+.raffle_h2 {
     text-align: center;
     margin-top: 2vh;
 }
 
 @media only screen and (max-width:767px) {
+
     /*Page Structure*/
-    header{
+    header {
         height: 58vw;
         flex-direction: column;
         justify-content: center;
     }
 
-    nav{
+    nav {
         padding: 0;
         order: 2;
         width: 100vw;
@@ -330,19 +346,19 @@ textarea{
         flex-direction: column;
     }
 
-    nav a{
+    nav a {
         padding: 0;
         margin-top: .6vw;
         font-size: 4vw;
     }
 
-    .logo{
+    .logo {
         order: 1;
         width: 100vw;
         justify-content: center;
     }
 
-    .logo img{
+    .logo img {
         width: 20vw;
     }
 
@@ -350,11 +366,11 @@ textarea{
         font-size: 10vw;
         padding: 0;
     }
-    
+
     .main_title h2 {
         font-size: 7vw;
-        padding-bottom: 0;
-    }   
+        padding-bottom: 1vh;
+    }
 
     footer {
         padding-top: 2vw;
@@ -363,20 +379,20 @@ textarea{
         bottom: 0;
         text-align: center;
         height: 12vw;
-        
+
     }
 
     /*Home */
     .banner {
-        height: 35vw; 
+        height: 35vw;
         background-position: 0 25%;
-    }     
-    
+    }
+
     .home_article {
         text-align: justify;
-        display: flex;   
+        display: flex;
         flex-direction: column;
-        padding: 2vw 2vw 0 2vw; 
+        padding: 2vw 2vw 0 2vw;
         align-items: center;
     }
 
@@ -386,14 +402,184 @@ textarea{
         font-size: 5vw;
         padding: 5vw;
     }
-    
+
     .home_article img {
         margin-top: 5vw;
         width: 90vw;
         border-radius: 2vw;
     }
+
+    /*About*/
+    .about_article {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-top: 2vh;
+    }
+
+    .about_article div {
+        width: 90vw;
+        padding: 5vw;
+    }
+
+    .about_article img {
+        width: 40vw;
+        height: 60vw;
+    }
+
+    .about_article h3 {
+        font-size: 3vh;
+        padding-bottom: 2vh;
+    }
+
+    .about_article p {
+        font-size: 2vh;
+        text-align: justify;
+    }
+
+    /*Contact Page*/
+    .contact_banner {
+        height: 20vh;
+        background-position: 0 10%;
+    }
+
+    .contact_banner img {
+        width: 30vh;
+    }
+
+    .contact {
+        padding: 2vw 8vw 0 8vw;
+        align-items: center;
+    }
+
+    .contact h3 {
+        font-size: 3vh;
+        padding-bottom: 2vh;
+    }
+
+    .contact p {
+        font-size: 2vh;
+        text-align: justify;
+    }
+
+    .contact>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact div p {
+        margin-bottom: 2vh;
+    }
+
+    .whatsapp {
+        width: 1.5vh;
+        height: 2.5vh;
+        padding-right: .5vh;
+    }
+
+    /*Information Page*/
+    .information_table {
+        width: 70vw;
+    }
+
+    .information_table table,
+    th,
+    td {
+        border: .2vh solid;
+        font-size: 1.5vh;
+        padding: 3vh;
+        text-align: center;
+        margin: 3vh 0;
+    }
+
+
+    /*Benefits and Tips Page*/
+    .container_benefits {
+        padding: 0;
+        flex-direction: column;
+        width: 90vw;
+        margin: 3vh 5vw;
+        height: auto;
+    }
+
+    .container_benefits img {
+        width: 35vh;
+        height: 35vh;
+    }
+
+    .table_container {
+        font-size: 2vh;
+        padding: 0 2vw 0 4vw;
+        text-align: justify;
+        margin: 0 4vw;
+    }
+
+    .table_container h3 {
+        font-size: 3vh;
+        text-align: center;
+        padding-bottom: 2vh;
+        color: white;
+    }
+
+    .star_rate {
+        font-size: 8vw;
+        text-align: center;
+        color: yellow;
+        padding: 2vh 0;
+    }
+
+    .benefits_article {
+        width: 90vw;
+        font-size: 2vh;
+        padding: 5vh 5vw;
+    }
+
+    .benefits_article h2 {
+        text-align: center;
+        color: white;
+    }
+
+    /*Raffle Page*/
+
+    iframe {
+        order: 2;
+        margin: 2vh 5vw;
+        border-radius: 2vh;
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .form {
+        padding: 2vh 5vw;
+        margin: 4vh 2vw;
+        width: 80vw;
+        font-size: 1vh;
+    }
+
+    .form label,
+    input,
+    select,
+    option,
+    textarea {
+        font-size: 4vw;
+    }
+
+    .raffle_container {
+        flex-direction: column;
+    }
+
+    .submit_button {
+        width: 15vw;
+    }
+
+    .raffle_h2 {
+        text-align: center;
+        margin-top: 2vh;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
+
     
 }
