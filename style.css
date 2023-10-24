@@ -1,4 +1,6 @@
 * {
+    /* Deteccion de scroll horizontal 
+    outline: 1px solid #f00 !important;*/
     font-family: Verdana;
     font-weight: bold;
     color: #e4c5e4;
@@ -206,7 +208,7 @@ td {
 .information_table_container {
     display: flex;
     justify-content: center;
-    width: 98vw;
+    width: 98.9vw;
 }
 
 /*Benefits and Tips Page*/
@@ -341,7 +343,7 @@ textarea {
     nav {
         padding: 0;
         order: 2;
-        width: 100vw;
+        width: auto;
         align-items: center;
         flex-direction: column;
     }
@@ -354,7 +356,7 @@ textarea {
 
     .logo {
         order: 1;
-        width: 100vw;
+        width: auto;
         justify-content: center;
     }
 
@@ -398,7 +400,7 @@ textarea {
 
     .home_article div {
         order: 2;
-        width: 90vw;
+        width: 80vw;
         font-size: 5vw;
         padding: 5vw;
     }
@@ -418,7 +420,7 @@ textarea {
     }
 
     .about_article div {
-        width: 90vw;
+        width: 80vw;
         padding: 5vw;
     }
 
@@ -492,6 +494,11 @@ textarea {
         margin: 3vh 0;
     }
 
+    .information_table_container {
+        display: flex;
+        justify-content: center;
+        width: 97vw;
+    }
 
     /*Benefits and Tips Page*/
     .container_benefits {
