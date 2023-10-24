@@ -1,6 +1,6 @@
 * {
-    /* Deteccion de scroll horizontal 
-    outline: 1px solid #f00 !important;*/
+  
+    outline: 1px solid #f00 !important;
     font-family: Verdana;
     font-weight: bold;
     color: #e4c5e4;
@@ -541,7 +541,7 @@ textarea {
     }
 
     .benefits_article {
-        width: 90vw;
+        width: 87vw;
         font-size: 2vh;
         padding: 5vh 5vw;
     }
