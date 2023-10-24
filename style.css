@@ -331,6 +331,7 @@ textarea {
     margin-top: 2vh;
 }
 
+/*Queries generales mobile y tablet*/
 @media only screen and (max-width:1023px) {
 
     /*Page Structure*/
@@ -341,7 +342,7 @@ textarea {
     }
 
     nav {
-        padding: 0;
+        border-bottom: 1.5vh double #f799f7;
         order: 2;
         width: auto;
         align-items: center;
@@ -355,9 +356,12 @@ textarea {
     }
 
     .logo {
+        margin: 0;
+        background-color: #1a1a1b;
         order: 1;
         width: auto;
         justify-content: center;
+        border-bottom: 1.5vh double #f799f7;
     }
 
     .logo img {
@@ -576,7 +580,7 @@ textarea {
     }
 
     .submit_button {
-        width: 15vw;
+        width: 100%;
     }
 
     .raffle_h2 {
@@ -588,6 +592,18 @@ textarea {
     @media only screen and (max-width:767px) {}
 
     /*Tablet Queries*/
-    @media only screen and (min-width:768px) and (max-width:1023px) {}
+    @media only screen and (min-width:768px) and (max-width:1023px) {
+        .input_box {
+            height: 6vh
+        }
+
+        .check_box {
+            margin-right: 2vw;
+            width: 3.5vw;
+            height: 3.5vw;
+        }
+
+       
+    }
 
 }
